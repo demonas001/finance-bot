@@ -15,7 +15,7 @@ def create_connection():
         dbname="finance-bot",
         user="postgres",
         password="t52H3zu9",
-        host="localhost",
+        host="finance-db", #change for docker
         port=5432
     )
     return conn  # Our conn name

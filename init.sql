@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS expenses (
+    id SERIAL PRIMARY KEY,
+    amount DECIMAL NOT NULL,
+    description TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
